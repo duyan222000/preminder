@@ -1,0 +1,68 @@
+name: preminder
+description: A new Flutter project.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.6 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  flutter_svg: ^2.0.7
+  flutter_native_splash: ^2.3.1
+  provider: ^6.0.5
+  flutter_slidable: ^3.0.0
+  scroll_snap_list: ^0.9.1
+  calendar_date_picker2: ^0.5.3
+  intl: ^0.18.1
+  
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^2.0.0
+
+
+flutter:
+
+  uses-material-design: true
+
+  assets:
+    - assets/svgs/icon.svg
+    - assets/svgs/screen_icon1.svg
+    - assets/svgs/screen_icon2.svg
+    - assets/svgs/three_dots.svg
+    - assets/svgs/pill.svg
+    - assets/svgs/setting_icon.svg
+    - assets/svgs/search_icon.svg
+    - assets/svgs/list_icon.svg
+    - assets/svgs/home_icon.svg
+    - assets/svgs/add_icon.svg
+    - assets/svgs/calendar.svg
+    - assets/svgs/noicon_icon.svg
+    - assets/svgs/medicine_pill.svg
+    - assets/svgs/medicine_pill_outline.svg
+    - assets/svgs/powder.svg
+    - assets/svgs/powder_outline.svg
+    - assets/svgs/whole_pill.svg
+    - assets/svgs/whole_pill_outline.svg
+    - assets/svgs/circle_pill.svg
+    - assets/svgs/circle_pill_outline.svg
+    - assets/svgs/niddle.svg
+    - assets/svgs/niddle_outline.svg
+    - assets/svgs/drop.svg
+    - assets/svgs/drop_outline.svg
+    - assets/svgs/cream.svg
+    - assets/svgs/cream_outline.svg
+    - assets/svgs/tube.svg
+    - assets/svgs/tube_outline.svg
+
+
+  fonts:
+    - family: Poppins
+      fonts:
+        - asset: assets/fonts/Poppins.ttf
+
